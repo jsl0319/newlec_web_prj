@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품등록</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">logo</a></h1>
+
+        <div>
+            <h2>메뉴</h2>
+            <ul>
+                <li><a href="../member/index.html">회원관리</a></li>
+                <li><a href="../product/index.html">상품관리</a></li>
+                <li><a href="../order/index.html">주문관리</a></li>
+                <li><a href="../post/index.html">게시글관리</a></li>
+                <li><a href="../analysis/index.html">통계/분석</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <h1>상품등록</h1>
+        <form>
+            <table border="1">
+                <tr>
+                    <td>상품분류
+                    <select>
+                        <option>사료</option>
+                        <option>용품</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>상품명
+                    <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>진열여부
+                    <input type="checkbox">
+                    </td>
+                </tr>
+                <tr>
+                    <td>상품 등록일
+                    <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>판매가
+                    <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>재고량
+                    <input type="text">
+                </td>
+                </tr>
+                <tr>
+                    <td>상품이미지
+                        <input type="file" accept="image/png, image/jpg">
+                    </td>
+                </tr>
+            </table>
+            <input type="button" value="등록">
+            <input type="button" value="수정">
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상품관리</title>
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">logo</a></h1>
+
+        <div>
+            <h2>메뉴</h2>
+            <ul>
+                <li><a href="../member/index.html">회원관리</a></li>
+                <li><a href="../product/index.html">상품관리</a></li>
+                <li><a href="../order/index.html">주문관리</a></li>
+                <li><a href="../post/index.html">게시글관리</a></li>
+                <li><a href="../analysis/index.html">통계/분석</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+    <h1>상품관리</h1> 
+    <form>
+        <h2>상품검색</h2>
+            <table border="1">
+                <tr>
+                    <td>분류 선택</td>
+                    <td>
+                    <select>
+                        <option>사료</option>
+                        <option>용품</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>검색어</td>
+                    <td>
+                    <select>
+                        <option>상품명</option>
+                        <option>제조사</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>판매가</td>
+                    <td>
+                    <input type="text"><span>원~</span>
+                    <input type="text"><span>원</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>진열여부</td>
+                    <td>
+                    <select>
+                        <option>전체</option>
+                        <option>진열</option>
+                        <option>미진열</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>등록일</td>
+                    <td>
+                    <input type="date"> ~ <input type="date">
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" value="검색"></input>
+        </form>
+
+        <table border="1">
+            <h2>상품리스트</h2>            
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>번호</td>
+                <td>상품명</td>
+                <td>등록일</td>
+                <td>가격</td>
+                <td>재고</td>
+                <td>진열</td>
+                <td>수정</td>
+                <td>삭제</td>
+            </tr>
+            <tr> 
+                <td><input type="checkbox"></td>
+                <td>3</td>
+                <td>아이템
+                    <select>
+                        <option>사료</option>
+                        <option>용품</option>
+                    </select>
+                </td>
+                <td><input type="date"></td>
+                <td>
+                    <input type="text">
+                </td>
+                <td><input type="text"></td>
+                <td><input type="checkbox"></td>
+                <td><a href="product-upload.html"><input type="button" value="수정"></a></td>
+                <td><input type="button" value="삭제"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>2</td>
+                <td>아이템
+                    <select>
+                        <option>사료</option>
+                        <option>용품</option>
+                    </select>
+                </td>
+                <td><input type="date"></td>
+                <td>
+                    <input type="text">
+                </td>
+                <td><input type="text"></td>
+                <td><input type="checkbox"></td>
+                <td><a href="product-upload.html"><input type="button" value="수정"></a></td>
+                <td><input type="button" value="삭제"></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>1</td>
+                <td>아이템
+                    <select>
+                        <option>사료</option>
+                        <option>용품</option>
+                    </select>
+                </td>
+                <td><input type="date"></td>
+                <td>
+                    <input type="text">
+                </td>
+                <td><input type="text"></td>
+                <td><input type="checkbox"></td>
+                <td><a href="product-upload.html"><input type="button" value="수정"></a></td>
+                <td><input type="button" value="삭제"></td>
+            </tr>
+        </table>	
+        <h2>페이지요청목록</h2>
+            <div>
+            이전
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                </ul>
+            다음
+            </div>
+    </main>
+</body>
+</html>
