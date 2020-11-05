@@ -25,26 +25,28 @@
         <h1>로그인</h1>
         <form method="post" id="authForm" action="">
         
-            <div>
-              <label for="loginId">아이디</label>
-              <input type="email" id="loginId" name="loginId" placeholder="ID" >
-              <label for="loginPw">비밀번호</label>
-              <input type="password" id="loginPw" name="password" placeholder="Password" >
-            </div>
-    
-            <button type="submit">로그인</button></br>
-            <a href="register.html">회원가입</a>
+            <section>
+                <label for="loginId">아이디</label>
+                <input type="email" id="loginId" name="loginId" placeholder="ID" >
+                <label for="loginPw">비밀번호</label>
+                <input type="password" id="loginPw" name="password" placeholder="Password" >
+            </section>
+
+            <section>
+                <button type="submit">로그인</button></br>
+            </section>
             
-            <div>
+            <section>
                 <input type="checkbox" id="saveLogin" name="saveLogin">
                 <label for="saveLogin">아이디 저장</label>
-              </div>
-    
-            <div>
-              <input type="checkbox" id="autoLogin" name="autoLogin">
-              <label for="autoLogin">자동 로그인</label>
-            </div>
-    
+            </section>
+
+            <section>
+                <input type="checkbox" id="autoLogin" name="autoLogin">
+                <label for="autoLogin">자동 로그인</label>
+            </section>
+
+            <a href="register.html">회원가입</a>
         </form>
     </main>
 
