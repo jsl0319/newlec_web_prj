@@ -6,13 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <header id ="header">
-        <h1>헤더</h1>
-        <a href="../index.html">HOME</a>
-        <a href="index.html">MATCH</a>
-        <a href="../community/index.html">COMMUNITY</a>
-        <a href="">LOGIN</a>
-        <a href="../mypage/index.html">MY PAGE</a>
+    <header>
+        <h1><a href="../index.html">logo</a></h1>
+
+        <nav>
+            <h1>메뉴</h1>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="index.html">Match</a></li>
+                <li><a href="../community/index.html">Community</a></li>
+                <li><a href="../shop/index.html">Shop</a></li>
+                <li><a href="../user/index.html">Login</a></li>
+                <li><a href="../myfeed/index.html">My Page</a></li>
+            </ul>
+        </nav>
     </header>
 
     <section>
@@ -34,7 +41,10 @@
                     <option>지역</option>
                     <option>성격</option>
                 </select>
-                <input type="text">
+                <input type="text" name="title" required placeholder="필터를 선택하세요." >
+                <input type="text" name="title" required placeholder="견종을 선택하세요." >
+                <input type="text" name="title" required placeholder="지역을 선택하세요." >
+                <input type="text" name="title" required placeholder="성격을 입력하세요." >
                 <input type = "submit" value ="검색">
             </form>
         </section>

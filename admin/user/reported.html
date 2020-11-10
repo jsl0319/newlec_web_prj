@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-------------------- Header -------------------->
+    <header id="header">
+        <h1><a href="../index.html">logo</a></h1>
+
+        <nav>
+            <h1>메뉴</h1>
+            <ul>
+                <li><a href="index.html">회원관리</a></li>
+                <li><a href="../shop/index.html">쇼핑몰</a></li>
+                <li><a href="../community/index.html">커뮤니티 게시글관리</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <nav id="aside">
+        <h1>회원 관리</h1>
+            <ul>
+                <li><a href="list.html">회원 리스트</a></li>
+                <li><a href="reported.html">신고회원 리스트</a></li>
+            </ul>
+    </nav>
+    
+    <!-------------------- Main -------------------->
+    <main id="main">
+        <section>
+            <section>
+                <h1>회원리스트</h1>
+                
+                <section>
+                    <h1>검색결과</h1>
+                    <span>[총 회원수 n명] 검색결과 m명</span>
+                </section>
+
+                <section>
+                    <h1>자세히 보기</h1>
+                    <select>
+                        <option value="20">20개씩 보기</option>
+                        <option value="50">50개씩 보기</option>
+                        <option value="100">100개씩 보기</option>
+                    </select>
+                </section>
+
+                <table border="1">
+                    <tr>
+                        <th><input type="checkbox"></th>
+                        <th>번호</th>
+                        <th>이름</th>
+                        <th>아이디</th>
+                        <th>나이</th>
+                        <th>성별</th>
+                        <th>지역</th>
+                        <th>휴대번호</th>
+                        <th>이메일</th>
+                        <th>등급</th>
+                        <th>강아지 이름</th>
+                        <th>강아지 나이</th>
+                        <th>강아지 성별</th>
+                        <th>견종</th>
+                        <th>신고 누적 횟수</th>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h1>삭제/신고</h1>
+                <input type="submit" value="신고리스트 등록">
+                <input type="submit" value="회원 삭제">
+            </section>
+
+        </section>
+    </main>
+
+    <!-------------------- Footer -------------------->
+    <footer id="footer">
+        <section>
+            <h1>Footer</h1>
+        </section>
+    </footer>
+</body>
+</html>
